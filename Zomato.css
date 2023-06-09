@@ -1,0 +1,485 @@
+body{
+    margin: 0;
+    padding: 0px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+header{
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+    position: relative;
+    object-fit: cover;
+    margin-bottom: 2rem;
+    
+}
+.header-image{
+    width: 100%;
+    position: absolute;
+    top: -20vh;
+    z-index: -1; 
+}
+.header-image img{
+    width: 100%;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    margin-left: 50px;
+}
+.login{
+    margin-left: 650px;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    font-size: larger;
+    font-style: initial;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 7vh;
+    align-items: center;
+}
+.head h3{
+    font-size: 2.1rem;
+    color: whitesmoke;
+    font-weight: 400;
+}
+.zomatologo{
+    width: 20vw;
+}
+.search{
+    display: flex;
+    height: 7vh;
+    width: 45vw;
+    align-items: center;
+    background-color: white;
+    padding: 5px 4px;
+    border-radius: 10px;
+}
+.location{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.location select{
+    color: gray;
+    border-right: 1px solide gray;
+    font-size: 15px;
+    margin-right: 10px;
+    padding-left: 10px;
+    border-color: aliceblue;
+    width: 30vh;
+}
+.location input{
+    outline: none;
+    border: none;
+    width: 200%;
+    padding-left: 10px;
+    font-size: 15px;
+}
+.search .location:first-child{
+    width: 30%;
+    color: rgb(255, 126, 139);
+}
+.search .location:last-child{
+    width: 70%;
+    color: gray;
+}
+.bodypart1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+    margin-top: 40px;
+    height: 160px;
+}
+.bodypart1_1{
+    width: 350px;
+    height: 240px;
+    overflow: hidden;
+    border-radius: 13px;
+    border: solid 1px;
+    border-color: rgb(234, 238, 241);
+    position: relative;
+    transition: 0.3s,0.3s; 
+}
+.bodypart1_1:hover 
+{  
+    width: 352px;
+    height: 242px;
+    transform: scale(1.03);
+}
+.bodypart1_1 img{
+    position: relative;
+    z-index: -1;
+}
+.bodypart1words {
+    position: absolute;
+    margin-top: 155px;
+    background-color: white;
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+} 
+.wordone{
+    font-size: larger;
+    margin-left: 17px;
+    margin-top: 16px;
+}
+.wordtwo{
+    margin-top: -32px;
+    margin-left: 17px;
+    font-weight: 100;
+    color: rgb(122, 121, 119);
+
+}
+.bodypart1_2{
+    width: 350px;
+    height: 240px;
+    overflow: hidden;
+    border-radius: 13px;
+    border: solid 1px;
+    border-color: rgb(234, 238, 241);
+    position: relative;
+    margin-left: 20px;
+    transition: 0.3s,0.3s;
+}
+.bodypart1_2:hover{
+    width: 352px;
+    height: 242px;
+    transform: scale(1.03);
+}
+.bodypart1_2 img{
+    position: relative;
+    z-index: -1;
+}
+.bodypart1_3{
+    width: 350px;
+    height: 240px;
+    overflow: hidden;
+    border-radius: 13px;
+    border: solid 1px;
+    border-color: rgb(234, 238, 241);
+    position: relative;
+    margin-left: 20px;
+    transition: 0.3s,0.3s;
+}
+.bodypart1_3:hover{
+    width: 352px;
+    height: 242px;
+    transform: scale(1.03);
+}
+.bodypart1_3 img{
+    position: relative;
+    z-index: -1;
+}
+.bodypart2words2{
+    display: flex;
+}
+.collection{
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: rgb(28 ,28 ,28);
+    margin-left: 125px;
+    margin-top: 163px;
+}
+.explore{
+    margin-left: 125px;
+    margin-top: -25px;
+    font-weight: 500;
+    font-size: larger;
+    color: rgb(93, 95, 99);
+}
+.all_collections{
+    margin-top: -25px;
+    margin-left: 75px; 
+    font-weight: 500;
+    font-size: large;
+    color: rgb(236, 150, 150);
+}
+.bodypart3{
+    display: flex;
+    margin-left: 126px;
+    margin-bottom: 4rem;
+    margin-top: -23px;
+    height: 200px;
+}
+.bodypart3_1{
+    width: 267px;
+    height: 319px;
+    overflow: hidden;
+    border-radius: 10px;
+    
+}
+.bodypart3_1 img{
+    position: relative;
+    z-index: -1;
+    margin-top: -20px;
+    width: 267px;
+    height: 319px;
+}
+.bodypart3_1word1{
+        margin-left: 15px;
+        position: absolute;
+        margin-top: 180px;
+        width: 300px;
+        height: 120px;
+        color: white;
+        font-size: large;
+        margin-top: 266px;   
+}
+.bodypart3_1word2{
+    margin-left: 15px;
+    position: absolute;
+    margin-top: 180px;
+    width: 100px;
+    height: 120px;
+    color: white;
+    font-size: medium;
+    margin-top: 274px;   
+}
+.bodypart3_2{
+    width: 267px;
+    height: 319px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-left: 10px; 
+    
+}
+.bodypart3_2 img{
+    position: relative;
+    z-index: -1;
+    margin-top: -20px;
+    width: 267px;
+    height: 319px;
+}
+.bodypart3_3{
+    width: 267px;
+    height: 319px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.bodypart3_3 img{
+    position: relative;
+    z-index: -1;
+    margin-top: -20px;
+    width: 267px;
+    height: 319px;
+}
+.bodypart3_4{
+    width: 267px;
+    height: 319px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.bodypart3_4 img{
+    position: relative;
+    z-index: -1;
+    margin-top: -20px;
+    width: 267px;
+    height: 319px;
+}
+.popular{
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+    margin-bottom: 2rem;
+    margin-top: 230px;
+    margin-left: 126px;
+    color: rgb(54 ,54, 54)
+}
+.boxes{
+    margin-top: -7px;
+    width: 1100px;
+    margin-left: 126px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box{
+    padding:20px;
+    width: 100%;
+    max-width: 28.5%;
+    height: 38px;
+    font-size: larger;
+    border: 1px solid rgb(232, 232, 232);
+    border-radius: 0.8rem;
+    margin-bottom: 0px;
+    background-color: rgb(255, 255, 255);
+}
+.bodypart5{
+    display: flex;
+    background-color: rgb(255, 251, 247);
+    height: 480px;
+    margin-top: 121px;
+}
+.bodypart5image img{
+    width: 250px;
+    height: 266px;
+    margin-left: 306px;
+    margin-top: 121px;
+}
+.downloadsection{
+    margin-left: 40px;
+    margin-top: -3px;
+}
+.getzomato{
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 5.6rem;
+    color: #1c1c1c
+}
+.link{
+    font-size: medium;
+    margin-top: -40px;
+    color: #747373;
+}
+.button{
+    font-size: large;
+    color: #3f3f3f;
+    padding-top: 1.6rem;
+}
+.emailsection{
+    margin-top: 21px;
+    color: rgb(187, 193, 199);
+    border-radius: 4px;
+    border-color: rgb(255, 255, 255);
+    width: 285px;
+    height: 45px;
+    font-size: large;
+}
+.submit{
+    color: white;
+    font-size: medium;
+    border-radius: 4px;
+    width: 153px;
+    height: 50px;
+    border-color: #Ef4F5F;
+    background-color: #ef4f5f
+}
+.download{
+    margin-top: 27px;
+    color: #9c9c9c;
+    font-size: 15px;
+}
+.playstore{
+    width: 138px;
+    height: 40px;
+}
+.appstore{
+    width: 138px;
+    height: 40px;
+    margin-left: 20px;
+}
+.bodypart6{
+    width: 100%;
+    height: 490px;
+    margin-top: 0px;
+    background-color: rgb(252, 252, 252);
+    position: absolute;
+}
+.exploreoptions{
+    position: relative;
+    font-size: 1.9rem;
+    margin-left: 126px;
+    margin-top: 54px;
+    color: #363636;
+}
+.lastboxes{
+    margin-top: -11px;
+    position: relative;
+    width: 1100px;
+    height: 66px;
+    margin-left: 126px;
+    border: 1px solid rgb(236, 238, 240);
+    border-radius: 8px;
+    margin-bottom: 32px;
+    background-color: white;
+}
+.lastboxeswords{
+    margin-left: 24px;
+    color: #1c1c1c;
+    font-size: 20px;
+}
+.Bottom{
+    width: 100%;
+    height: 455px;
+    background-color:rgb(248, 248, 248)
+}
+.bottomdiv1{
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    height: 100px;
+    margin-left: 126px;
+}
+.bottomzomato{
+    height: 26px;
+    width: 131px;
+    margin-top: 65px;
+}
+.country{
+    margin-top: 80px;
+    display: flex;
+    width: 60px;
+    height: 20px;
+    margin-right: 100px;
+}
+.flag{
+    margin-right: 10px;
+}
+.india{
+    margin-right: 10px;
+}
+.bottomwords{
+    display: flex;
+}
+.aboutzomato{
+    width: 180px;
+    height: 300px;
+    margin-left: 124px;
+}
+.zomaverse{
+    width: 180px;
+    height: 300px;
+    margin-left: 30px;
+}
+.forrestaurants{
+    width: 180px;
+    height: 300px;
+    margin-left: 30px;
+}
+.learnmore{
+    width: 180px;
+    height: 300px;
+    margin-left: 30px;
+}
+.sociallinks{
+    width: 180px;
+    height: 300px;
+    margin-left: 30px;
+}
+.bottomicons{
+    display: flex;
+}
+.bottomiconss{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+.playstore2{
+    width: 138px;
+    height: 40px;
+    margin-top: 20px;
+}
+.appstore2{
+    width: 138px;
+    height: 40px;
+    margin-top: 10px;
+}
